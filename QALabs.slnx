@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="NUnitTests/NUnitTests.csproj" Id="5e94f892-1372-4c33-adce-98260d7bf7a9" />
   <Project Path="Testing/ClassProject.csproj" />
   <Project Path="UserServiceTests/TestProject.csproj" />
 </Solution>
