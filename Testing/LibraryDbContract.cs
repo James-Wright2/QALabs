@@ -14,5 +14,6 @@ namespace ClassProject
         IEnumerable<BookUser> GetUsersWithBook(Book book);
         void RemoveBook(Book book);
         BookUser GetBookUserFromName(string name);
+        void AddBookUser(BookUser user);
     }
 }

@@ -11,7 +11,7 @@
             new Book("J.R.R Tolkien", "The Lord Of The Rings", "9876543211", 1),
         };
 
-        BookUser[] users =
+        List<BookUser> users = new List<BookUser>
         {
             new BookUser("Alice", 1),
             new BookUser("Bob", 2),
@@ -57,6 +57,11 @@
         {
             books.Remove(book);
         }   
+
+        public void AddBookUser(BookUser user)
+        {
+            users.Add(user);
+        }
 
         public IEnumerable<BookUser> GetUsersWithBook(Book book)
         {
